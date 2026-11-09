@@ -1,0 +1,109 @@
+.paginaProduto {
+  padding-top: 20px;
+}
+
+.paginaProduto .blocoConteudo {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+}
+
+.menuLateral {
+  flex-shrink: 0;
+  box-shadow: var(--sombraMenu);
+  background-color: var(--corCabecalho);
+  padding: 10px;
+  width: 250px;
+}
+
+.tituloMenu {
+  margin-bottom: 20px;
+  border-bottom: var(--bordaMenu);
+  padding-bottom: 5px;
+  color: var(--corItemMenu);
+  text-align: center;
+}
+
+.secaoMenu {
+  margin-bottom: 15px;
+  padding: 6px 10px;
+  color: var(--corItemMenu);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.listaItensMenu {
+  margin-bottom: 20px;
+  border-bottom: var(--bordaMenu);
+  line-height: 2.2;
+  list-style: none;
+}
+
+.itemMenuAtivo {
+  display: block;
+  border-radius: 8px;
+  background-color: var(--corBotaoDestaque);
+  padding: 6px 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.itemMenu {
+  display: block;
+  transition:
+    background 0.2s,
+    color 0.2s;
+  border-radius: 8px;
+  padding: 6px 10px;
+  color: var(--corItemMenu);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.itemMenu:hover {
+  background-color: white;
+}
+
+.paginaProduto .vitrineProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: 250px;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 20px;
+}
+
+.paginaProduto .cardProduto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--sombraMenu);
+  border-radius: 8px;
+  background-color: var(--corCardProduto);
+  padding: 10px;
+}
+
+.paginaProduto .cardProduto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(255, 122, 26, 0.28);
+}
+
+.paginaProduto .imagemProduto {
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  height: 140px;
+}
+
+.paginaProduto .descricaoProduto {
+  margin: 8px 0 0 0;
+  color: var(--corItemMenu);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.paginaProduto .precoProduto {
+  color: #d94f00;
+  font-weight: bold;
+  font-size: 16px;
+}

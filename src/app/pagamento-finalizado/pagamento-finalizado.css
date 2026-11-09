@@ -1,0 +1,113 @@
+.paginaPgtoFinalizado {
+  margin: 30px auto;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.painelCartaoPgto {
+  margin-bottom: 24px;
+  box-shadow: var(--sombraCartao);
+  border: var(--bordaPadrao);
+  border-radius: 10px;
+  background-color: white;
+  padding: 24px;
+}
+
+.painelAprovado {
+  margin-inline: auto;
+  max-width: 560px;
+  text-align: center;
+}
+
+.iconeAprovado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px auto 20px;
+  border-radius: 50%;
+  background-color: white;
+  width: 76px;
+  height: 76px;
+  color: #16a34a;
+  font-size: 1.8rem;
+}
+
+.tituloAprovado {
+  margin-bottom: 8px;
+  color: var(--corTextoItem);
+  font-size: 1.5rem;
+}
+
+.textoAprovado {
+  margin-bottom: 24px;
+  color: var(--corTextoSuave);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.textoAprovado strong {
+  color: var(--corTextoItem);
+}
+
+.resumoAprovado {
+  margin-bottom: 20px;
+  border: var(--bordaPadrao);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.linhaAprovado {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: var(--bordaPadrao);
+  padding: 14px 18px;
+  color: var(--corTextoSuave);
+  font-size: 0.85rem;
+}
+
+.linhaAprovado:last-child {
+  border-bottom: none;
+}
+
+.linhaAprovado strong {
+  color: var(--corTextoItem);
+}
+
+.paginaPgtoFinalizado .bannerStripe {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 24px 0;
+  border: var(--bordaMenu);
+  border-radius: 10px;
+  background-color: white;
+  padding: 14px 18px;
+  color: #b45309;
+  font-size: 0.9rem;
+}
+
+.avisoDemo {
+  justify-content: center;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.botaoVoltar {
+  display: inline-block;
+  border: var(--bordaPadrao);
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 20px;
+  color: var(--corTextoItem);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.botaoVoltar:hover {
+  background-color: white;
+}

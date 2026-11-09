@@ -1,0 +1,90 @@
+.paginaLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+}
+
+.blocoLogin {
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  min-height: 400px;
+}
+
+.conteudoLogin {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.tituloLogin {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  color: var(--corItemMenu);
+  font-weight: 500;
+}
+
+.campo input {
+  border: var(--bordaPadrao);
+  border-radius: 10px;
+  padding: 10px 12px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.campo input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.25);
+  border-color: var(--corBotaoDestaque);
+}
+
+.botaoAcessoLogin {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--corBotaoDestaque);
+  padding: 12px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+}
+
+.botaoAcessoLogin:hover {
+  background-color: #ff9a2e;
+}
+
+.linksLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.linksLogin a {
+  color: var(--corItemMenu);
+}
+
+.linksLogin a:hover {
+  text-decoration: underline;
+}

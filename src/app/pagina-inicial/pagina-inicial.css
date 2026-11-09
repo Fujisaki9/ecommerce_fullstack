@@ -1,0 +1,62 @@
+.paginaInicial .vitrineProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.paginaInicial .cardProduto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--sombraMenu);
+  border-radius: 8px;
+  background-color: var(--corCardProduto);
+  padding: 10px;
+}
+
+.paginaInicial .cardProduto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(255, 122, 26, 0.28);
+}
+
+.paginaInicial .imagemProduto {
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  height: 140px;
+}
+
+.paginaInicial .descricaoProduto {
+  margin: 8px 0 0 0;
+  color: var(--corItemMenu);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.paginaInicial .precoProduto {
+  color: #d94f00;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tituloDestaque {
+  margin: 30px;
+  text-align: center;
+}
+
+.blocoBannersCategoria {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+}
+
+.bannerCategoria {
+  padding: 10px 10px 0 10px;
+}
+
+.bannerProdutosLink {
+  padding: 10px;
+}

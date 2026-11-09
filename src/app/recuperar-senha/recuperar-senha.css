@@ -1,0 +1,107 @@
+.paginaRecuperarSenha {
+  margin: 40px auto;
+  box-shadow: var(--sombraCartao);
+  border: var(--bordaPadrao);
+  border-radius: 10px;
+  background-color: white;
+  padding: 24px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.tituloRecuperarSenha {
+  margin-bottom: 20px;
+  border-bottom: var(--bordaPadrao);
+  padding-bottom: 12px;
+  color: var(--corTextoItem);
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.formularioRecuperarSenha {
+  margin-bottom: 16px;
+}
+
+.formularioRecuperarSenha input[type="text"] {
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  outline: none;
+  border: var(--bordaPadrao);
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 14px;
+  width: 100%;
+  color: var(--corTextoItem);
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.formularioRecuperarSenha input:focus {
+  box-shadow: var(--sombraFoco);
+  border-color: var(--corCheckout);
+}
+
+.botoesRecuperarSenha {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .botoesRecuperarSenha {
+    flex-direction: column;
+  }
+}
+
+.botoesRecuperarSenha .botaoEnviar,
+.botoesRecuperarSenha .botaoSecundario {
+  flex: 1;
+  font-family: inherit;
+}
+
+.botoesRecuperarSenha .botaoEnviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.4s;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+  border: none;
+  border-radius: 10px;
+  background-color: var(--corCheckout);
+  padding: 15px;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.botoesRecuperarSenha .botaoEnviar:hover {
+  background-color: #1ecc4a;
+}
+
+.botoesRecuperarSenha .botaoSecundario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+  cursor: pointer;
+  border: var(--bordaPadrao);
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  color: var(--corTextoItem);
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.botoesRecuperarSenha .botaoSecundario:hover {
+  border-color: var(--corCheckout);
+  background-color: white;
+}
